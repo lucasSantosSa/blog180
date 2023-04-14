@@ -8,7 +8,7 @@ Blog 180 is a simple blogging application built with Django. Users can create, e
 - Create, edit, and delete posts
 - Restrict post interaction to authenticated users
 - Display the author of each post
-- Tailwind CSS integration for quick styling
+- CSS integration for quick styling
 
 ## Installation and Setup
 
