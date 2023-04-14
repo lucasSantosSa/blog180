@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="auth-container">
+        <h1>Login</h1>
+        <form class="auth-form" method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="auth-button" type="submit">Login</button>
+        </form>
+        <a class="back-link" href="{% url 'post_list' %}">Back to Post List</a>
+    </div>
+{% endblock %}
